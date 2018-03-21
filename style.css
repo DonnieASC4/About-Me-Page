@@ -167,6 +167,7 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .spot {
@@ -196,6 +197,7 @@ nav a {
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
+        margin-bottom: 30px;
     }
     .aboutBar {
     display: inline-block;
@@ -211,10 +213,11 @@ nav a {
 @media only screen and (max-width: 1135px) {
     .About-Me-Section {
         width: 274px;
-        height: 500px;
+        height: 370px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .aboutBar {
@@ -225,10 +228,20 @@ nav a {
     }
 }
 
+.MeText {
+    margin-top: 30px;
+}
+
+
+
 .dummyDescription {
     color: white;
     font-size: 22px;
     display: block;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color: dodgerblue
 }
 
 #topper {
@@ -236,7 +249,9 @@ nav a {
     color: white;
     font-size: 35px;
     font-weight: bold;
-    background-color: aqua;
+    background-color: forestgreen;
+    width: 270px;
+    margin-bottom: 40px;
 }
 
 
